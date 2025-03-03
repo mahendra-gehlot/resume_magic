@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-openai = "*"
+langchain-core = "*"
+langchain-community = "*"
+black = "*"
+selenium = "*"
+webdriver-manager = "*"
+latex2mathml = "*"
+pdflatex = "*"
+langgraph = "*"
+plotly = "*"
+langgraph-checkpoint = "*"
+langchain = "*"
+langgraph-checkpoint-sqlite = "*"
+streamlit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

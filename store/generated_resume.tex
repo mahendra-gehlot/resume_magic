@@ -1,0 +1,196 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% These custom command must be added to resume as it is
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape Mahendra Gehlot} \\ \vspace{8pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-7737101405 ~ 
+    \href{mailto:connect.mge@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {connect.mge@gmail.com}} ~
+    \href{https://www.linkedin.com/in/mahendra-gehlot}{\raisebox{-0.2\height}\faLinkedin\ {linkedin.com/in/mahendra-gehlot}}  ~ 
+    \vspace{4pt}
+    \\\\{\faSkype\ {live:mahendra2baori}} ~
+    \href{https://github.com/mahendra-gehlot}{\raisebox{-0.2\height}\faGithub { github.com/mahendra-gehlot}}  ~ 
+    \vspace{-12pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Science}{August 2021 -- June 2023}
+      {Master of Technology - Aerospace Engineering}{Bangaluru, Karnataka}
+    \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rajasthan Technical University}{August 2015 -- May 2019}
+      {Bachelor of Technology}{Kota, Rajasthan}
+    \resumeSubHeadingListEnd
+
+%-----------Technical SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Domain}{: Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Time Series Prediction} \\
+    \vspace{4pt}
+     \textbf{Languages}{: Python, C++, SQL} \\
+     \vspace{4pt}
+     \textbf{Frameworks}{: TensorFlow, PyTorch, Scikit-Learn} \\
+     \vspace{4pt}
+     \textbf{Tools}{: Databricks, MLflow, Docker, Kubernetes, BigQuery} \\
+     \vspace{4pt}
+     \textbf{Data Management}{: SQL, Spark, Hadoop} \\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+
+ \resumeSubHeadingListStart
+    \resumeSubheading
+      {Data Scientist - PGET}{August 2023 -- Present}
+      {Mercedes-Benz Research and Development India}{Bengaluru, Karnataka}
+    \resumeItemListStart 
+    \resumeItem{\textbf{Developed and deployed machine learning models} including LSTM-based time series models for dynamic EV charging profiles, optimizing performance and achieving a \textbf{5\% reduction in charging time}.}
+    \resumeItem{\textbf{Collaborated with data engineers} to design and implement robust data pipelines for feature engineering and model training, ensuring data quality and consistency.}
+    \resumeItem{\textbf{Deployed and monitored ML models} in production environments, optimizing performance and addressing latency and resource utilization issues.}
+    \resumeItem{\textbf{Led the development of scalable AI/ML models} in Azure cloud environment, managing approximately \textbf{25 critical ML models}.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+        {Data Science Intern}{May 2022 -- July 2022}
+        {Gojek Tech}{Bengaluru, Karnataka}
+    \resumeItemListStart
+    \resumeItem{\textbf{Performed data extraction and EDA} using BigQuery, identifying data sources and conducting analysis on customer support data.}
+    \resumeItem{\textbf{Worked on NLP labeling and model exploration}, applying weak-supervision and clustering methods for intent classification.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Analyst 1}{March 2020 -- July 2021}
+      {HiTech iSolutions LLP}{Ahmadabad, Gujarat}
+      \resumeItemListStart
+        \resumeItem{\textbf{Managed a 28,000-aerodrome database}, automating data collection and ensuring high data quality through Python.}
+        \resumeItem{\textbf{Implemented automated workflows} for digital map creation, improving operational efficiency by \textbf{15\% quarter-over-quarter}.}
+      \resumeItemListEnd  
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Mine Like Object Detection and Segmentation}}{Jan 2023 - June 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a detection system using Mask R-CNN, achieving a 95.6\% mAP on test images.}
+            \resumeItem{Generated synthetic data using diffusion models to enhance model robustness.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Pneumothorax Detection using Chest X-ray}}{Aug 2022 - Dec 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a computer vision model achieving F1 score of 0.86 for pneumothorax classification.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------Patents-----------
+\section{Patents}
+\resumeItemListStart
+\resumeItem{\textbf{[Filed] Electric Vehicle Charging Score Generation} - Mahendra Gehlot, Anshuman Chand, Akash Mahadev, Saurabh Chaudhari}
+\resumeItemListEnd
+
+%-----------Publications-----------
+\section{Publications}
+\resumeItemListStart
+\resumeItem{\textbf{[Drafted] Dynamic Electric Vehicle Charging Profile Prediction} - Mahendra Gehlot, Jose Dijo, Nupur Rathore}
+\resumeItem{\textbf{[Submitted] Diffusion Model-Based Side-Scan Sonar Image Synthesis} - Mahendra Gehlot, Aniruddh Sikdar, Rajini Makam, Suresh Sundaram}
+\resumeItemListEnd
+
+% ------ Certification----------
+\section{Certification}
+    \begin{multicols}{2}
+            \begin{itemize}[itemsep=-5pt, parsep=8pt]
+                \item Machine Learning with Python - MITx Courses
+                \item Practical Data Science on the AWS Cloud
+                \item Scalable Machine Learning on Big Data using Apache Spark
+                \item Deep Learning AI TensorFlow Developer
+                \item Neural Networks and Deep Learning  
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+
+\end{document}

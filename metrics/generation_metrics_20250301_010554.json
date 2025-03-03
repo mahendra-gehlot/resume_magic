@@ -1,0 +1,9 @@
+{
+  "resume_generation_time": 47.904704093933105,
+  "cover_letter_generation_time": null,
+  "total_tokens_used": 31893,
+  "completion_tokens": 3554,
+  "prompt_tokens": 28339,
+  "model_name": "gpt-4o-mini",
+  "status": "resume_generated"
+}

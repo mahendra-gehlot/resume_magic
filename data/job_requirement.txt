@@ -1,0 +1,37 @@
+Your Role Accountabilities
+
+ Machine Learning Model Development
+Design, develop, and train a variety of machine learning models, including deep learning, natural language processing, computer vision, and reinforcement learning. 
+Conduct thorough experimentation and analysis to optimize model performance, accuracy, and efficiency. 
+Implement robust data pipelines for model training and evaluation, ensuring data quality and consistency. 
+Stay abreast of the latest research and advancements in machine learning and apply them to solve challenging problems. 
+Collaborate with data scientists and researchers to translate research findings into production-ready solutions. 
+ Data Processing and Engineering
+Work closely with data engineers to design and implement data pipelines for feature engineering, data transformation, and model training. 
+Ensure data quality and consistency across the entire machine learning lifecycle. 
+Develop and maintain data pipelines for model training and evaluation, ensuring data quality and consistency. 
+Explore and implement innovative data management techniques to improve model performance and efficiency. 
+Collaborate with data scientists and engineers to optimize data pipelines for machine learning workloads. 
+ Model Deployment and Monitoring
+Deploy and maintain machine learning models in production environments, ensuring scalability, reliability, and performance. 
+Develop and implement monitoring and alerting systems to track model performance, identify anomalies, and proactively address issues. 
+Continuously evaluate and improve deployed models, ensuring they remain effective and meet evolving business needs. 
+Optimize model performance in production environments, addressing latency, resource utilization, and cost-effectiveness. 
+ Collaboration and Documentation
+Partner with data scientists, software engineers, and product teams to translate business problems into ML solutions. 
+Document ML workflows, decisions, and key insights to foster team learning and knowledge sharing. 
+Contribute to building reusable ML tools and frameworks. 
+ Innovation and Learning
+Stay updated with advancements in AI/ML and incorporate them into ongoing projects. 
+Participate in hackathons, internal competitions, and knowledge-sharing sessions. 
+
+Qualifications & Experiences
+
+Bachelor’s or Master’s in Computer Science, Data Science, or a related field. 
+2+ years of experience in developing and deploying ML models in production environments. 
+Strong programming skills in Python and experience with libraries like TensorFlow, PyTorch, and scikit-learn. 
+Proficiency in SQL and big data tools (e.g., Spark, Hadoop). 
+Familiarity with cloud platforms (AWS, Azure, or GCP) and containerization tools like Docker and Kubernetes. 
+Strong understanding of machine learning algorithms and techniques, including deep learning, natural language processing, and computer vision. 
+Excellent problem-solving, analytical, and communication skills. 
+Passion for innovation and a strong desire to learn and grow. 
