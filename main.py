@@ -17,7 +17,7 @@ from data_processing.fetch_tex import read_latex_file
 from scarp_job_description.scarping_method import get_job_text
 from data_processing.save_results import save_tex
 from data_processing.output_parser import LaTeXResumeParser
-from prompt_templates import current_prompt_v3 as resume_template_latest
+from prompt_templates import current_prompt as resume_template_latest
 from prompt_templates import cover_letter_template
 
 # LangGraph components for workflow management
