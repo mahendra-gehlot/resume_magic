@@ -18,8 +18,8 @@ AI Resume Builder is a Streamlit-based application that generates ATS-friendly r
 ## 🚀 Installation  
 1. Clone the repository:  
    ```bash
-   git clone <repository_url>
-   cd ai-resume-builder
+   git clone https://github.com/mahendra-gehlot/resume_magic
+   cd resume_magic
    ```
 2. Install dependencies:  
    ```bash
